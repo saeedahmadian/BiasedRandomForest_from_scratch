@@ -1,0 +1,173 @@
+graph DecisionTree_48 {
+	root [label="depth : 0 
+ Score gini : 0.6997369239445338 
+ y per sample:[235, 145]"]
+	left_1_root [label="depth : 1 
+ Score gini : 0.6551824079265471 
+ y per sample:[170, 47]"]
+	left_2_left_1_root [label="depth : 2 
+ Score gini : 0.5150862068965517 
+ y per sample:[57, 1]"]
+	right_3_left_2_left_1_root [label="depth : 3 
+ Score gini : 0.5 
+ y per sample:[7, 1]"]
+	right_2_left_1_root [label="depth : 2 
+ Score gini : 0.6857186481020177 
+ y per sample:[113, 46]"]
+	left_3_right_2_left_1_root [label="depth : 3 
+ Score gini : 0.5739247311827957 
+ y per sample:[55, 7]"]
+	left_4_left_3_right_2_left_1_root [label="depth : 4 
+ Score gini : 0.5621468926553672 
+ y per sample:[55, 5]"]
+	right_3_right_2_left_1_root [label="depth : 3 
+ Score gini : 0.7233410172675077 
+ y per sample:[58, 39]"]
+	left_4_right_3_right_2_left_1_root [label="depth : 4 
+ Score gini : 0.6919714745801703 
+ y per sample:[47, 22]"]
+	right_4_right_3_right_2_left_1_root [label="depth : 4 
+ Score gini : 0.6856060606060606 
+ y per sample:[11, 17]"]
+	right_1_root [label="depth : 1 
+ Score gini : 0.7148422315739662 
+ y per sample:[65, 98]"]
+	left_2_right_1_root [label="depth : 2 
+ Score gini : 0.6927927927927927 
+ y per sample:[28, 14]"]
+	left_3_left_2_right_1_root [label="depth : 3 
+ Score gini : 0.6667953667953668 
+ y per sample:[27, 10]"]
+	right_4_left_3_left_2_right_1_root [label="depth : 4 
+ Score gini : 0.6533333333333333 
+ y per sample:[27, 8]"]
+	right_3_left_2_right_1_root [label="depth : 3 
+ Score gini : 0.5 
+ y per sample:[1, 4]"]
+	right_2_right_1_root [label="depth : 2 
+ Score gini : 0.6929251542311723 
+ y per sample:[37, 84]"]
+	left_3_right_2_right_1_root [label="depth : 3 
+ Score gini : 0.7180826896865062 
+ y per sample:[30, 41]"]
+	right_4_left_3_right_2_right_1_root [label="depth : 4 
+ Score gini : 0.7199413489736071 
+ y per sample:[30, 32]"]
+	right_3_right_2_right_1_root [label="depth : 3 
+ Score gini : 0.5993762993762994 
+ y per sample:[7, 43]"]
+	left_4_right_3_right_2_right_1_root [label="depth : 4 
+ Score gini : 0.6684981684981686 
+ y per sample:[5, 8]"]
+	right_4_right_3_right_2_right_1_root [label="depth : 4 
+ Score gini : 0.5180180180180181 
+ y per sample:[2, 35]"]
+	root -- left_1_root [label="x[1] < 123.5"]
+	root -- right_1_root [label="x[1] > 123.5"]
+	left_1_root -- left_2_left_1_root [label="x[5] < 26.35"]
+	left_1_root -- right_2_left_1_root [label="x[5] > 26.35"]
+	left_3_left_2_left_1_root [label="depth : 3 
+ Score gini : 0.0 
+ y per sample:[50, 0] "]
+	left_2_left_1_root -- left_3_left_2_left_1_root [label="x[6] < 0.6755"]
+	left_2_left_1_root -- right_3_left_2_left_1_root [label="x[6] > 0.6755"]
+	left_4_right_3_left_2_left_1_root [label="depth : 4 
+ Score gini : 0.0 
+ y per sample:[0, 1] "]
+	right_4_right_3_left_2_left_1_root [label="depth : 4 
+,Score gini : 0.0 
+ y per sample:[7, 0]"]
+	right_3_left_2_left_1_root -- left_4_right_3_left_2_left_1_root [label="x[6] < 0.7110000000000001"]
+	right_3_left_2_left_1_root -- right_4_right_3_left_2_left_1_root [label="x[6] > 0.7110000000000001"]
+	right_2_left_1_root -- left_3_right_2_left_1_root [label="x[1] < 99.5"]
+	right_2_left_1_root -- right_3_right_2_left_1_root [label="x[1] > 99.5"]
+	right_4_left_3_right_2_left_1_root [label="depth : 4 
+,Score gini : 0.0 
+ y per sample:[0, 2]"]
+	left_3_right_2_left_1_root -- left_4_left_3_right_2_left_1_root [label="x[4] < 96.5"]
+	left_3_right_2_left_1_root -- right_4_left_3_right_2_left_1_root [label="x[4] > 96.5"]
+	left_5_left_4_left_3_right_2_left_1_root [label="depth : 5 
+ Score gini : 0.12640045963803503 
+ y per sample:[55, 4] "]
+	right_5_left_4_left_3_right_2_left_1_root [label="depth : 5 
+,Score gini : 0.0 
+ y per sample:[0, 1]"]
+	left_4_left_3_right_2_left_1_root -- left_5_left_4_left_3_right_2_left_1_root [label="x[6] < 1.1225"]
+	left_4_left_3_right_2_left_1_root -- right_5_left_4_left_3_right_2_left_1_root [label="x[6] > 1.1225"]
+	right_3_right_2_left_1_root -- left_4_right_3_right_2_left_1_root [label="x[0] < 5.5"]
+	right_3_right_2_left_1_root -- right_4_right_3_right_2_left_1_root [label="x[0] > 5.5"]
+	left_5_left_4_right_3_right_2_left_1_root [label="depth : 5 
+ Score gini : 0.3940539178634417 
+ y per sample:[46, 17] "]
+	right_5_left_4_right_3_right_2_left_1_root [label="depth : 5 
+,Score gini : 0.2777777777777777 
+ y per sample:[1, 5]"]
+	left_4_right_3_right_2_left_1_root -- left_5_left_4_right_3_right_2_left_1_root [label="x[5] < 45.35"]
+	left_4_right_3_right_2_left_1_root -- right_5_left_4_right_3_right_2_left_1_root [label="x[5] > 45.35"]
+	left_5_right_4_right_3_right_2_left_1_root [label="depth : 5 
+ Score gini : 0.2777777777777777 
+ y per sample:[5, 1] "]
+	right_5_right_4_right_3_right_2_left_1_root [label="depth : 5 
+,Score gini : 0.39669421487603307 
+ y per sample:[6, 16]"]
+	right_4_right_3_right_2_left_1_root -- left_5_right_4_right_3_right_2_left_1_root [label="x[6] < 0.2525"]
+	right_4_right_3_right_2_left_1_root -- right_5_right_4_right_3_right_2_left_1_root [label="x[6] > 0.2525"]
+	right_1_root -- left_2_right_1_root [label="x[5] < 29.9"]
+	right_1_root -- right_2_right_1_root [label="x[5] > 29.9"]
+	left_2_right_1_root -- left_3_left_2_right_1_root [label="x[1] < 163.5"]
+	left_2_right_1_root -- right_3_left_2_right_1_root [label="x[1] > 163.5"]
+	left_4_left_3_left_2_right_1_root [label="depth : 4 
+ Score gini : 0.0 
+ y per sample:[0, 2] "]
+	left_3_left_2_right_1_root -- left_4_left_3_left_2_right_1_root [label="x[1] < 124.5"]
+	left_3_left_2_right_1_root -- right_4_left_3_left_2_right_1_root [label="x[1] > 124.5"]
+	left_5_right_4_left_3_left_2_right_1_root [label="depth : 5 
+ Score gini : 0.2777777777777777 
+ y per sample:[25, 5] "]
+	right_5_right_4_left_3_left_2_right_1_root [label="depth : 5 
+,Score gini : 0.48 
+ y per sample:[2, 3]"]
+	right_4_left_3_left_2_right_1_root -- left_5_right_4_left_3_left_2_right_1_root [label="x[0] < 7.5"]
+	right_4_left_3_left_2_right_1_root -- right_5_right_4_left_3_left_2_right_1_root [label="x[0] > 7.5"]
+	left_4_right_3_left_2_right_1_root [label="depth : 4 
+ Score gini : 0.0 
+ y per sample:[1, 0] "]
+	right_4_right_3_left_2_right_1_root [label="depth : 4 
+,Score gini : 0.0 
+ y per sample:[0, 4]"]
+	right_3_left_2_right_1_root -- left_4_right_3_left_2_right_1_root [label="x[0] < 2.5"]
+	right_3_left_2_right_1_root -- right_4_right_3_left_2_right_1_root [label="x[0] > 2.5"]
+	right_2_right_1_root -- left_3_right_2_right_1_root [label="x[1] < 155.5"]
+	right_2_right_1_root -- right_3_right_2_right_1_root [label="x[1] > 155.5"]
+	left_4_left_3_right_2_right_1_root [label="depth : 4 
+ Score gini : 0.0 
+ y per sample:[0, 9] "]
+	left_3_right_2_right_1_root -- left_4_left_3_right_2_right_1_root [label="x[2] < 59.0"]
+	left_3_right_2_right_1_root -- right_4_left_3_right_2_right_1_root [label="x[2] > 59.0"]
+	left_5_right_4_left_3_right_2_right_1_root [label="depth : 5 
+ Score gini : 0.49586776859504145 
+ y per sample:[30, 25] "]
+	right_5_right_4_left_3_right_2_right_1_root [label="depth : 5 
+,Score gini : 0.0 
+ y per sample:[0, 7]"]
+	right_4_left_3_right_2_right_1_root -- left_5_right_4_left_3_right_2_right_1_root [label="x[2] < 89.0"]
+	right_4_left_3_right_2_right_1_root -- right_5_right_4_left_3_right_2_right_1_root [label="x[2] > 89.0"]
+	right_3_right_2_right_1_root -- left_4_right_3_right_2_right_1_root [label="x[6] < 0.3005"]
+	right_3_right_2_right_1_root -- right_4_right_3_right_2_right_1_root [label="x[6] > 0.3005"]
+	left_5_left_4_right_3_right_2_right_1_root [label="depth : 5 
+ Score gini : 0.4444444444444444 
+ y per sample:[4, 2] "]
+	right_5_left_4_right_3_right_2_right_1_root [label="depth : 5 
+,Score gini : 0.24489795918367352 
+ y per sample:[1, 6]"]
+	left_4_right_3_right_2_right_1_root -- left_5_left_4_right_3_right_2_right_1_root [label="x[7] < 39.0"]
+	left_4_right_3_right_2_right_1_root -- right_5_left_4_right_3_right_2_right_1_root [label="x[7] > 39.0"]
+	left_5_right_4_right_3_right_2_right_1_root [label="depth : 5 
+ Score gini : 0.0 
+ y per sample:[0, 34] "]
+	right_5_right_4_right_3_right_2_right_1_root [label="depth : 5 
+,Score gini : 0.4444444444444444 
+ y per sample:[2, 1]"]
+	right_4_right_3_right_2_right_1_root -- left_5_right_4_right_3_right_2_right_1_root [label="x[4] < 587.5"]
+	right_4_right_3_right_2_right_1_root -- right_5_right_4_right_3_right_2_right_1_root [label="x[4] > 587.5"]
+}
